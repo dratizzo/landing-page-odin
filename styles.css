@@ -8,7 +8,7 @@ body {
 
 img {
     border-radius: 8px;
-    border: solid;
+    border-style: solid;
     border-width: 4px;
     border-color: #3882F6;
 }
@@ -96,6 +96,15 @@ h1 {
     max-width: 150px;
 }
 
+.imgs-subtext-paragraph {
+    color: #1F2937;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
 p {
     margin: 0px;
 }
@@ -163,6 +172,7 @@ h3 {
     border-radius: 8px;
     border-width: 2px;
     color: #E5E7EB;
+    border-style: solid;
 }
 
 .footer {
