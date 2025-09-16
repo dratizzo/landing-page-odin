@@ -6,6 +6,13 @@ body {
     flex-direction: column;
 }
 
+img {
+    border-radius: 8px;
+    border: solid;
+    border-width: 4px;
+    border-color: #3882F6;
+}
+
 ul {
     padding: 0px;
     margin: 0px;
@@ -25,10 +32,11 @@ a {
 
 .header-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #1F2937;
     padding: 8px 256px;
+    gap: 316px;
 }
 
 .header-logo {
@@ -41,7 +49,9 @@ a {
 
 .website-info-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
     background-color: #1F2937;
     padding: 64px 256px;
 }
@@ -63,6 +73,7 @@ h1 {
 .website-info-text {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     width: 450px;
     gap: 12px;
 }
@@ -72,17 +83,21 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 52px;
+    padding-bottom: 68px;
 }
 
 .random-info-block-images {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 52px;
 }
 
 .random-info-image-boxes {
     max-width: 150px;
+}
+
+p {
+    margin: 0px;
 }
 
 h2 {
@@ -101,17 +116,22 @@ h2 {
 }
 
 .quote-block-text {
-
+    width: 800px;
+    height: 200px;
+    padding: 88px;
 }
 
 .thor-quote-text {
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
+    padding: 0px;
+    margin: 0px;
 }
 
 .thor-quote-name {
     text-align: right;
+    font-weight: bold;
 }
 
 .call-to-action-block {
@@ -126,10 +146,14 @@ h2 {
     align-items: center;
     gap: 32px;
     background-color: #3882F6;
+    padding: 32px 78px;
+    border-radius: 8px;
 }
 
 h3 {
     margin: 0px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .call-button {
@@ -137,11 +161,14 @@ h3 {
     padding: 8px 12px;
     border-color: white;
     border-radius: 8px;
-    /* problema aqui
-    align-self: flex-start;
-    */
+    border-width: 2px;
+    color: #E5E7EB;
 }
 
 .footer {
-    background-color: #1F2937
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 28px;
+    text-align: center;
 }
